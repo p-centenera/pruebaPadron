@@ -6,7 +6,6 @@ public class OficinaPadron{
 
 	public void annadir(Habitante habitante){ 	
 		habitantesPadron.add(habitante);
-		volcarContactos();
 	}
 
 	public ArrayList getHabitantesPadron(){ 	
@@ -32,7 +31,7 @@ public class OficinaPadron{
 			}
 			sc.close();
 		}catch(IOException ex){
-			System.out.println("No hay habitantes inscritos");
+			System.out.println("Creando padrón");
 		}
 	}
 	public OficinaPadron(){ 
